@@ -48,8 +48,8 @@ class Model
     }
 
     /**
-     * @return Connection|object
-     * @throws ResolverException
+     * @return mixed|Connection
+     * @throws \Exception
      */
     public function getConnection()
     {

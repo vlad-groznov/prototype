@@ -47,13 +47,13 @@ class Manager
     /**
      * @param Resolver $resolver
      *
-     * @return Resolver
+     * @return $this
      */
     public function setResolver(Resolver $resolver)
     {
         $this->resolver = $resolver;
 
-        return $this->resolver;
+        return $this;
     }
 
     /**
